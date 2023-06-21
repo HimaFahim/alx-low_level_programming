@@ -1,4 +1,4 @@
-#include <studio.h>
+#include "main.h"
 int main(void)
 {
 	printf("size of a char: %lu byte(s)\n", sizeof(char));
