@@ -11,9 +11,9 @@
 
 int main(void)
 {
-	int i = 0;
+	int i = 48;
 
-	for (; i < 10; i++)
+	for (; i < 58; i++)
 	putchar(i);
 	putchar('\n');
 	return (0);
