@@ -10,18 +10,14 @@
 
 int main(void)
 {
-	int i = 0;
-	int b = 0;
+	int i;
 
-	for (; i <= 9; i++)
+	for (i = 48; i <= 57; i++)
 	{
-		 for (; b <= 9; b++)
-			 if (i > b)
 				 putchar(i);
 				putchar(',');
-				putchar(32);
-				putchar(b);
-				return (0);
+				putchar(' ');
 	}
-}
+				return (0);
 
+}
