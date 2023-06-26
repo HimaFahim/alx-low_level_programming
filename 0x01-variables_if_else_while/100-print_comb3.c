@@ -10,12 +10,11 @@
 
 int main(void)
 {
-	int i = 48;
-	int b = 48;
+	int i,b;
 
-	for (; i <= 57; i++)
+	for (i = 48; i < 58; i++)
 	{
-		for (; b <= 57; b++)
+		for (b = 48; b < 58; b++)
 		{
 			if (i < b && i != b)
 			{
