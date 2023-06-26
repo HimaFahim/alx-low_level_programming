@@ -15,7 +15,7 @@ int main(void)
 
 	for (; i <= 57; i++)
 		putchar(i);
-	for (; b <= 97 + 5; b++)
+	for (; b <= 79 + 5; b++)
 		putchar(b);
 	putchar('\n');
 	return (0);
