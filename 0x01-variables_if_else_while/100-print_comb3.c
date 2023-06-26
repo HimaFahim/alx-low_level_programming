@@ -13,9 +13,9 @@ int main(void)
 	int i = 48;
 	int b = 48;
 
-	for (; i <= 48+9; i++)
+	for (; i <= 57; i++)
 	{
-		for (; b <= 48+9; b++)
+		for (; b <= 57; b++)
 		{
 			if (i < b && i != b)
 			{
